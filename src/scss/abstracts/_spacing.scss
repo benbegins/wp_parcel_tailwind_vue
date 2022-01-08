@@ -1,0 +1,52 @@
+// Page padding
+:root {
+	--page-padding: 1.5rem;
+	@media screen and (min-width: $sm) {
+		--page-padding: 3rem;
+	}
+	@media screen and (min-width: $lg) {
+		--page-padding: 4vw;
+	}
+}
+
+// Sections padding
+.section-pad {
+	padding-top: 80px;
+	padding-bottom: 80px;
+	@media screen and (min-width: $md) {
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+	@media screen and (min-width: $lg) {
+		padding-top: 130px;
+		padding-bottom: 130px;
+	}
+	@media screen and (min-width: $xl) {
+		padding-top: 12vw;
+		padding-bottom: 12vw;
+	}
+}
+.section-pad-top {
+	padding-top: 80px;
+	@media screen and (min-width: $md) {
+		padding-top: 100px;
+	}
+	@media screen and (min-width: $lg) {
+		padding-top: 130px;
+	}
+	@media screen and (min-width: $xl) {
+		padding-top: 12vw;
+	}
+}
+.section-pad-bottom {
+	padding-bottom: 80px;
+	@media screen and (min-width: $md) {
+		padding-bottom: 100px;
+	}
+	@media screen and (min-width: $lg) {
+		padding-bottom: 130px;
+	}
+	@media screen and (min-width: $xl) {
+		padding-bottom: 12vw;
+	}
+}
